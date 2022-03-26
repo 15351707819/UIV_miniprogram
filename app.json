@@ -1,0 +1,47 @@
+{
+  "pages": [
+
+    "pages/index/index",                               
+    "pages/manage/manage",
+    "pages/totalme/totalme",
+    "pages/logs/logs",
+    "pages/order/order",
+    "pages/news/news",
+    "pages/my/my",
+    "pages/map/map",
+    "pages/baozhengj/index",
+    "pages/my/skzh/skzh",
+    "pages/my/smrz/smrz",
+    "pages/my/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1CBBB4",
+    "navigationBarTitleText": "主页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#FF9C35",
+    "borderStyle": "black",
+    "backgroundColor": "#c0c0c0",
+    "list": [
+      {
+        "selectedIconPath": "/images/index2 .png",
+        "iconPath": "/images/index1 .png",
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "selectedIconPath": "/images/guanli2.png",
+        "iconPath": "/images/guanli1.png",
+        "pagePath": "pages/manage/manage",
+        "text": "消息"
+      }
+    ]
+  },
+
+
+
+  "sitemapLocation": "sitemap86.json"
+}

@@ -1,0 +1,14 @@
+/**app.wxss**/
+page {
+  box-sizing: border-box;
+}
+
+ /* font字体  */
+
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:32rpx;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+}
