@@ -1,0 +1,75 @@
+<!--index.wxml-->
+<view class="page">
+<!--设置轮换banner-->
+<view>
+<swiper indicator-dots="true" autoplay="flase" interval="6000" duration="500">
+<block wx:for="{{imgUrls}}">
+<swiper-item>
+<image src="{{item}}" class="pic"/>
+</swiper-item>
+</block>
+</swiper></view>
+<!--设置展示图标-->
+<!-- 设置展示图标 -->
+  <view class="body">
+  <!--左边-->
+    <view class="left">
+       <!--个人信息界面-->
+      <view class="l1">
+        <navigator url="../my/my"><!--个人信息界面-->
+          <image class="pic1" src="/../images/my-on.png" />
+        </navigator>
+      </view>
+      <view class="l2">
+        <text>个人中心</text>
+      </view>
+      <!--地图导航界面-->
+      <view class="l3">
+        <navigator url="../map/map">
+          <image class="pic1" src="/../images/3.jpg" />
+        </navigator>
+      </view>
+      <view class="l4">
+        <text>测亩工具</text>
+      </view>
+    </view>
+    <!--右边的界面-->
+    <view class="right">
+      <view class="l1">
+        <navigator url="../order/order">
+          <image class="pic1" src="/../images/order-on.png" />
+        </navigator>
+      </view>
+      <view class="l2">
+        <text>我的订单</text>
+      </view>
+      <view class="l3" bindtap="phone">
+        <image class="pic1" src="/../images/4.png" />
+      </view>
+      <view class="l4">
+        <text>售后服务</text>
+      </view>
+
+    </view>
+
+  </view>
+
+  
+<!--/view -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

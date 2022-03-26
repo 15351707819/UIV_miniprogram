@@ -1,0 +1,19 @@
+/* pages/my/smrz/smrz.wxss */
+input{
+  flex:1;
+  background-color: aliceblue;
+  height: 80rpx;
+  margin: 10px;
+  padding-left: 8px;
+  border: solid 1px silver;
+}
+text{
+  margin-top: 15px;
+  float:left;
+}
+
+.lineLayout {
+  /* 设置text和input组件布局 */
+  display: inline-block; /* 设置布局模式 */
+  margin: 10px;
+}

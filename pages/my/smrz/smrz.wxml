@@ -1,0 +1,3 @@
+<!--pages/my/smrz/smrz.wxml-->
+<view></view>
+<view  bindtap="info"></view>

@@ -1,0 +1,27 @@
+<!--pages/map/map.wxml-->
+<!-- <map latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" bindmarkertap="markertap" enable-satellite /> -->
+<map 
+latitude=" 31.959882" longitude=" 119.171791" 
+enable-satellite
+bindtap="clickMapTap" 
+bindcontroltap="controltap" 
+bindregionchange="regionchange"
+markers="{{marks}}"
+polygons="{{polygons}}"
+polyline="{{polyline}}"
+include-points="includePoints" 
+bindmarkertap="markertap"
+show-compass="true"
+show-location="true">
+ <cover-image style="position: absolute;left:20px;top:100px;width:20px;height:20px" src="/../images/qun.png" bindtap="getLocalImage">
+    </cover-image>
+    <cover-view class="draw" style="position: absolute;left:92%;top:50px">
+
+      <cover-image class="map_buttons" style="width:28px;height:24px" bindtap="drawTap" src="/../images/draw.png" />
+      <cover-image class="map_buttons" style="width:28px;height:20px" bindtap="measureTap" src="/../images/measure.png" />
+      <cover-image class="map_buttons" style="width:28px;height:20px" bindtap="backTap" src="/../images/back.png" />
+      <cover-image class="map_buttons" style="width:28px;height:20px" bindtap="finishTap" src="/../images/finish.png" />
+    </cover-view>
+
+
+</map>

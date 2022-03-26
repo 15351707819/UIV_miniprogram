@@ -1,0 +1,62 @@
+/* pages/my/my.wxss */
+/* .container{
+  min-height: 100%;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.baozhengjing{
+  width: 100%;
+  background: url(https://cdn.it120.cc/images/weappshop/arrow-right.png) no-repeat 750rpx center;
+  background-size: 16rpx auto,750rpx auto;
+  margin: 20rpx 0; 
+  border-bottom: 1px solid #eee;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 100rpx;
+} */
+
+page {
+  background-color: #f8f8f8;
+  font-size: 32rpx;
+}
+
+.head {
+  width: 100%;
+  background-color: rgb(115, 218, 195);
+  height: 340rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head > .avatar {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  background: #f2f2f2;
+  border: 10rpx solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.arrow {
+  width: 30rpx;
+  height: 32rpx;
+  float: right;
+  margin-top: 16rpx;
+}
+.menu {
+  padding: 10rpx;
+  background-color:white;
+  margin-top: 0rpx;
+  box-sizing: border-box;
+}
+
+.menu > view {
+  padding: 20rpx;
+  line-height: 60rpx;
+  border-bottom: 1px solid #e9e0e0;
+  height: 55rpx;
+}
+
+.menu > view:last-child {
+  border: none;
+}
